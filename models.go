@@ -157,6 +157,7 @@ type MediaContainer struct {
 	MediaTagPrefix      string     `json:"mediaTagPrefix"`
 	MediaTagVersion     int        `json:"mediaTagVersion"`
 	Size                int        `json:"size"`
+	Title               string     `json:"title"`
 }
 
 // MediaMetadata ...
