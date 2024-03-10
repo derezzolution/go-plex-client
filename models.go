@@ -158,12 +158,14 @@ type Media struct {
 type MediaContainer struct {
 	Metadata            []Metadata `json:"Metadata"`
 	AllowSync           bool       `json:"allowSync"`
+	Duration            int64      `json:"duration"`
 	Identifier          string     `json:"identifier"`
 	LibrarySectionID    int        `json:"librarySectionID"`
 	LibrarySectionTitle string     `json:"librarySectionTitle"`
 	LibrarySectionUUID  string     `json:"librarySectionUUID"`
 	MediaTagPrefix      string     `json:"mediaTagPrefix"`
 	MediaTagVersion     int        `json:"mediaTagVersion"`
+	RatingKey           string     `json:"ratingKey"`
 	Size                int        `json:"size"`
 	Title               string     `json:"title"`
 }
